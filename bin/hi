@@ -1,0 +1,6 @@
+#!/usr/bin/ruby
+
+require_relative '../src/greeter'
+
+puts Greeter.new.speak
+
